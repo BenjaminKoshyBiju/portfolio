@@ -1,4 +1,4 @@
-name: Super-Linter
+name:  CodeQL-Analysis 
 
 on: push
 
@@ -10,7 +10,7 @@ jobs:
       fail-fast: false
       matrix:
         language:
-          - javascript
+          - javascript@v2
 
     steps:
       - name: Checkout repository
