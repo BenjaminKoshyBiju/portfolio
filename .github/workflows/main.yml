@@ -1,8 +1,4 @@
 name: CodeQL-Analysis-and-Deploy
-permissions:
-  contents: read
-  pages: write
-  id-token: write
 
 on:
   push:
@@ -35,7 +31,6 @@ jobs:
         uses: github/codeql-action/analyze@v2
 
   deploy:
-  
     needs: analyze
     runs-on: ubuntu-latest
     steps:
@@ -44,6 +39,8 @@ jobs:
 
       - name: Setup Pages
         uses: actions/configure-pages@v3
+        with:
+          permissions: 'contents: read, pages: write, id-token: write'
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
