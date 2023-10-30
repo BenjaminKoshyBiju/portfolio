@@ -19,7 +19,7 @@ router.get('/',(req,res)=>{
 
 })
 
-app.get('/test', (req, res) => {
+router.get('/test', (req, res) => {
     res.send('Your codebase is working!');
   });
 
