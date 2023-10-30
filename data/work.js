@@ -14,10 +14,10 @@ const work=[
     summary: 'Got an Opportunity to work as a Digital Marketing Executive remotely for Wizdots.',
     date:'May 2023 - October 2023',
     detail1:'Created Content ideas for SMM also worked on PPC.',
-    detail2:'Collaborated with team working remotely to create effective Digital Marketing strategies to increase leads.',
-    detail3:'Created EOM Reports to show analytical data for the digital strategies used and results obtained.',
-    detail4:'Worked on On Page and Off Page SEO to increase Page Ranking for Clients.',
-    detail5:'Created Proposals for potential clients.'
+    detail2:'Created effective Digital Marketing strategies to increase leads and Collaborated with teams working remotely.',
+    detail3:'Showed analytical data for the digital strategies used and results obtained using EOM Reports',
+    detail4:'Increased Page Ranking for Clients using On Page and Off Page SEO.',
+    detail5:'Created Successful Proposals for potential clients.'
 }
 ]
 

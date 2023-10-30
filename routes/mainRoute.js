@@ -19,10 +19,6 @@ router.get('/',(req,res)=>{
 
 })
 
-router.get('/test', (req, res) => {
-    res.send('Your codebase is working!');
-  });
-
 router.get('/:slug',(req,res)=>{
     const skill=skills.filter((e)=>{
         

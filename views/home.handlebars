@@ -5,7 +5,7 @@
         <div class="row mb-5 align-items-center">
           <div class="col-md-12 col-lg-6 mb-4 mb-lg-0" data-aos="fade-up">
             <h2>Hey, I'm Benjamin Koshy Biju</h2>
-            <p class="mb-0">Aspiring Backend Developer</p>
+            <p class="mb-0">Software Developer</p>
           </div>
         </div>
         
@@ -29,8 +29,9 @@
       
     </section><!-- End  WProjects Section -->
 
-    <!-- ======= Clients Section ======= -->
+   
     <section class="section">
+      <div id="education">
       <div class="container">
         <div class="row justify-content-center text-center mb-4">
           <div class="col-5">
@@ -41,13 +42,14 @@
             {{/each}}
           </div>
         </div>
-    
-        </div>
+      </div>
+      </div>
       </div>
     </section><!-- End Eductaion Section -->
 
     <!-- ======= work Section ======= -->
     <section class="section services">
+      <div id="mywork">
       <div class="container">
         <div class="row justify-content-center text-center mb-4">
           <div class="col-50">
@@ -58,6 +60,7 @@
               a Digital Marketing Exective (Remote) Upskilled myself while working on Productive Marketing Campaigns.
             </p>
           </div>
+        </div>
         </div>
         <div class="row">
           {{#each work}}
@@ -89,41 +92,22 @@
     <section class="section pt-0">
       <div class="container">
 
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial">
-                  <img src="/img/person_1.jpg" alt="Image" class="img-fluid">
+        
+              <div class="testimonial-wrap ">
+                <div class="testimonial ">
+                  <img src="/img/Benjamin.jpg" alt="Image" class="img-fluid">
                   <blockquote>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus incidunt ut officiis
-                      explicabo inventore.</p>
+                    <p>Hi, thanks for checking out my portfolio. Initially I planned to Deploy it in Github pages using 
+                      Github Actions but only realized after creating the CI/CD pipeline that my handlebars cant be loaded as pages.
+                      So I decided to host it using AWS EC2 instance instead.  
+                    </p>
                   </blockquote>
-                  <p>&mdash; Jean Hicks</p>
+                  <p>&mdash; Benjamin Koshy Biju</p>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial">
-                  <img src="/img/person_2.jpg" alt="Image" class="img-fluid">
-                  <blockquote>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus incidunt ut officiis
-                      explicabo inventore.</p>
-                  </blockquote>
-                  <p>&mdash; Chris Stanworth</p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
           </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section><!-- End Testimonials Section -->
+          
+    </section>
 
   </main><!-- End #main -->
 
@@ -146,8 +130,8 @@
         </div>
         <div class="col-sm-6 social text-md-end">
           
-          <a href="#"><span class="bi bi-instagram"></span></a>
-          <a href="#"><span class="bi bi-linkedin"></span></a>
+          <a href="https://github.com/BenjaminKoshyBiju"><span class="bi bi-github"></span></a>
+          <a href="https://www.linkedin.com/in/benjamin-koshy/"><span class="bi bi-linkedin"></span></a>
         </div>
       </div>
     </div>
