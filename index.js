@@ -1,7 +1,7 @@
 import express from 'express';
 import route from './routes/mainRoute.js';
 const app = express()
-const port = 3000
+const port = 4000
 
 import { engine } from 'express-handlebars';
 app.engine('handlebars', engine());
