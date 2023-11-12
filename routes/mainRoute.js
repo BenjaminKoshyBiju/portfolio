@@ -39,7 +39,7 @@ router.get('/:slug',(req,res)=>{
         img3:skill[0].img3,
         link:skill[0].link
 
-        // skills:skills,
+        
 
     });
     
