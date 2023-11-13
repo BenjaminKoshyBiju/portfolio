@@ -1,14 +1,12 @@
-import express from 'express';
-import path from 'path';
-import {skills} from '../data/skills.js';
-import {keywords} from '../data/skills.js';
-import edu from '../data/education.js';
-import work from '../data/work.js';
-import { fileURLToPath } from 'url';
-const __filename = fileURLToPath(import.meta.url);
-const router=express.Router()
-router.get('/',(req,res)=>{
-    
+import {skills,keywords} from '../models/skills';
+import edu from '../models/education';
+import work from '../models/work';
+import { Request,Response } from "express";
+
+
+function home (req:Request,res:Response){
+   
+
     res.render('./home',{
         skills:skills,
         keywords:keywords,
@@ -16,12 +14,11 @@ router.get('/',(req,res)=>{
         work:work
     });
     
+}
 
-})
+function projects(req:Request<{slug:string}>,res:Response){
 
-router.get('/:slug',(req,res)=>{
     const skill=skills.filter((e)=>{
-        
         return e.slug==req.params.slug
         
         })
@@ -43,8 +40,6 @@ router.get('/:slug',(req,res)=>{
 
     });
     
+}
 
-})
-
-
-export default router;
+export {home,projects}
