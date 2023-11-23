@@ -1,6 +1,6 @@
 # My Portfolio Project
 
-Created a portfolio using Express JS, Typescript, and used Handlebar template engine for views using Bootstrap.
+Created a portfolio using Express JS, Typescript, and used Handlebar template engine for views using Bootstrap. Also created a Github Workflow for CI/CD
 ![Screenshot 2023-11-24 000903](https://github.com/BenjaminKoshyBiju/portfolio/assets/97573363/48a583ad-750f-417c-8d5d-4020cf560428)
 
 Deployed it using AWS EC2 Instance and it is live till 26/11/2023. 750 Hours of free tier perk will be almost finished, Kept the server running using PM2 <i>Link http://ec2-52-66-122-130.ap-south-1.compute.amazonaws.com:4000/</i>.
